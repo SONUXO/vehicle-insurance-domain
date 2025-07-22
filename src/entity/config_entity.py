@@ -2,6 +2,9 @@ import os
 from src.constants import *
 from dataclasses import dataclass
 from datetime import datetime
+from dotenv import load_dotenv
+
+load_dotenv()
 
 TIMESTAMP: str = datetime.now().strftime("%m_%d_%Y_%H_%M_%S")
 
@@ -55,15 +58,15 @@ class ModelTrainerConfig:
 @dataclass
 class ModelEvaluationConfig:
     changed_threshold_score: float = MODEL_EVALUATION_CHANGED_THRESHOLD_SCORE
-    bucket_name: str = MODEL_BUCKET_NAME
+    bucket_name: str = os.getenv("MODEL_BUCKET_NAME")
     s3_model_key_path: str = MODEL_FILE_NAME
 
 @dataclass
 class ModelPusherConfig:
-    bucket_name: str = MODEL_BUCKET_NAME
+    bucket_name: str = os.getenv("MODEL_BUCKET_NAME")
     s3_model_key_path: str = MODEL_FILE_NAME
 
 @dataclass
 class VehiclePredictorConfig:
     model_file_path: str = MODEL_FILE_NAME
-    model_bucket_name: str = MODEL_BUCKET_NAME
+    model_bucket_name: str = os.getenv("MODEL_BUCKET_NAME")
