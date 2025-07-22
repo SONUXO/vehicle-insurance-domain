@@ -1,7 +1,3 @@
-Here’s a professional and impressive `README.md` tailored to your MLOps project workflow. It highlights your skills in **MLOps, automation, scalable deployment, CI/CD, cloud integration**, and **end-to-end ML lifecycle**, making it attractive to recruiters or technical evaluators:
-
----
-
 # 🚗 Vehicle Classification MLOps Pipeline
 
 This project demonstrates a complete end-to-end **MLOps pipeline** for a Machine Learning application, from data ingestion to deployment with CI/CD using GitHub Actions and AWS infrastructure.
