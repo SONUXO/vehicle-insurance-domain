@@ -169,21 +169,3 @@ http://<EC2-PUBLIC-IP>:5080
 * ✅ GitHub Secrets → Secure AWS credentials
 
 ---
-
-## 🎯 Key Skills Demonstrated
-
-* ✅ Full-stack MLOps Implementation
-* ✅ Scalable & Modular Codebase
-* ✅ Real-world Cloud & DevOps Practices
-* ✅ Reproducible ML Workflow
-* ✅ GitHub CI/CD with Self-Hosted Runners
-
----
-
-## 🤝 Let's Connect!
-
-If you’re a recruiter, engineer, or collaborator interested in scalable MLOps systems — feel free to reach out!
-
----
-
-Let me know if you want a professional badge setup (e.g., GitHub Actions ✅, Docker 🐳, AWS ☁️, etc.) or README with visuals like architecture diagrams or demo gifs.
