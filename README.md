@@ -1,6 +1,5 @@
 # 🚗 Vehicle Classification MLOps Pipeline
-Lets predict whether an individual will buy insurance or not
-This project demonstrates a complete end-to-end **MLOps pipeline** for a Machine Learning application, from data ingestion to deployment with CI/CD using GitHub Actions and AWS infrastructure.
+Lets predict whether an individual will buy insurance or not, the project demonstrates a complete end-to-end **MLOps pipeline** for a Machine Learning application, from data ingestion to deployment with CI/CD using GitHub Actions and AWS infrastructure.
 
 > 💡 **Tech Stack:** Python, MongoDB, AWS (S3, EC2, IAM, ECR), Docker, GitHub Actions, FastAPI/Flask, Conda
 
